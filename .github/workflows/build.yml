@@ -28,7 +28,7 @@ jobs:
         pyinstaller --onefile abrir_ticket.py
 
     - name: Upload executable as an artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: abrir_ticket-executable
         path: dist/abrir_ticket
